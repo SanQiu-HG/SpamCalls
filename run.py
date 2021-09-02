@@ -20,12 +20,14 @@ def main():
    asakita();sunchila();nutriclub();asani();wintershop();datesy();thaifriendly();jumpstart();kinimart();klikwa();bakmikeraton();kopidulukala();kredinesia();pinjamindo();uangpintar();danafix();maucash();omamoriexpress();ktakilat();cairin();kredito();kreditpedia();bocil();duitqu();primacash();temanprima();maripinjam();sobatbangun()
 #--------------------------------Banner/LOGO------------------------------------------
 def logo():
-  print """%s
-   _____ __  ________
-  / ___//  |/  / ___/ | SMS Spammer
-  \__ \/ /|_/ /\__ \  | SMS Spammer using api from IndiHome
- ___/ / /  / /___/ /  | Coded by SanQiu HG - \033[31;2mIndo\033[39;2mSec\033[0;1m
-/____/_/  /_//____/   | ex: 08xxxxx77\033[0m"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
+  print("""\033[1m
+╔═══╗╔═══╗╔═╗─╔╗╔═══╗╔══╗╔╗─╔╗
+║╔═╗║║╔═╗║║║╚╗║║║╔═╗║╚╣─╝║║─║║ Sms Spammer used for beginner
+║╚══╗║║─║║║╔╗╚╝║║║─║║─║║─║║─║║
+╚══╗║║╚═╝║║║╚╗║║║╚═╝║─║║─║║─║║ Tim coder by - \033[31;2mCyber\033[39;2mCreator\033[0;1m
+║╚═╝║║╔═╗║║║─║║║╚══╗║╔╣─╗║╚═╝║
+╚═══╝╚╝─╚╝╚╝─╚═╝───╚╝╚══╝╚═══╝ By SanQiu HG
+    """)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
