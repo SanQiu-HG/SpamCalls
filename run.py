@@ -21,20 +21,16 @@ def main():
 #--------------------------------Banner/LOGO------------------------------------------
 def logo():
   print """%s
-
-
-   %sAuthor by %sSanQiu HG15%s
-.
-%sGithub %sgithub.com/SanQiu-HG15%s
-
- %sTeam %sCyberCreator%s
-
-
-"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
+╔═══╗╔═══╗╔═╗─╔╗╔═══╗╔══╗╔╗─╔╗
+║╔═╗║║╔═╗║║║╚╗║║║╔═╗║╚╣─╝║║─║║ Sms Spammer used for beginner
+║╚══╗║║─║║║╔╗╚╝║║║─║║─║║─║║─║║
+╚══╗║║╚═╝║║║╚╗║║║╚═╝║─║║─║║─║║ Tim coder by - \033[31;2mCyber\033[39;2mCreator\033[0;1m
+║╚═╝║║╔═╗║║║─║║║╚══╗║╔╣─╗║╚═╝║
+╚═══╝╚╝─╚╝╚╝─╚═╝───╚╝╚══╝╚═══╝ By SanQiu HG"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
-  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (8888xx) : "%(pu,me,pu,pu))
+  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (895xx) : "%(pu,me,pu,pu))
   if len(nom) < 5:
     print "%s[%s!%s] %sMasukkan nomor target dengan benar!!"%(pu,me,pu,me)
     input()
