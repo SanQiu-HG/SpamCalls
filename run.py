@@ -21,12 +21,11 @@ def main():
 #--------------------------------Banner/LOGO------------------------------------------
 def logo():
   print """%s
-╔═══╗╔═══╗╔═╗─╔╗╔═══╗╔══╗╔╗─╔╗
-║╔═╗║║╔═╗║║║╚╗║║║╔═╗║╚╣─╝║║─║║ Sms Spammer used for beginner
-║╚══╗║║─║║║╔╗╚╝║║║─║║─║║─║║─║║
-╚══╗║║╚═╝║║║╚╗║║║╚═╝║─║║─║║─║║ Tim coder by - \033[31;2mCyber\033[39;2mCreator\033[0;1m
-║╚═╝║║╔═╗║║║─║║║╚══╗║╔╣─╗║╚═╝║
-╚═══╝╚╝─╚╝╚╝─╚═╝───╚╝╚══╝╚═══╝ By SanQiu HG"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
+   _____ __  ________
+  / ___//  |/  / ___/ | SMS Spammer
+  \__ \/ /|_/ /\__ \  | SMS Spammer using api from IndiHome
+ ___/ / /  / /___/ /  | Coded by SanQiu HG - \033[31;2mIndo\033[39;2mSec\033[0;1m
+/____/_/  /_//____/   | ex: 08xxxxx77\033[0m"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
